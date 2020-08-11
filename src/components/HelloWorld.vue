@@ -8,14 +8,14 @@
 
   <br><br>
 
-  <h2>Example 1</h2>
-  <h3>{{minValue}}</h3>
+  <h2>Example</h2>
   <RangeSlider
-  @getValues="getValues"
+  @getMinValue="getMinValue"
+  @getMaxValue="getMaxValue"
   :min="0"
   :max="20"
   :defaultMin="minValue"
-  :defaultMax="11"
+  :defaultMax="maxValue"
   :sliceNum="2"
   :bar="{
     color: '#593B02',
@@ -30,7 +30,7 @@
     borderRadius: 'none'
   }"
   ></RangeSlider>
-  <h3>{{minValue}},{{maxValue}}</h3>
+  <h3>min: {{minValue}}, max: {{maxValue}}</h3>
 </div>
     
 </template>
@@ -47,7 +47,7 @@ export default {
   },
   data() {
     return {
-      minValue: 10,
+      minValue: 7,
       maxValue: 15,
     }
   },
