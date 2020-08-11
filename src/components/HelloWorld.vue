@@ -4,7 +4,7 @@
     @domak/vue-rangeslider
   </h1>
   <h2>Default</h2>
-  <RangeSlider @getMinValue="getMinValue"></RangeSlider>
+  <RangeSlider></RangeSlider>
 
   <br><br>
 
@@ -30,7 +30,7 @@
     borderRadius: 'none'
   }"
   ></RangeSlider>
-  <h3>min: {{minValue}}, max: {{maxValue}}</h3>
+  <h3>min: {{this.minValue}}, max: {{this.maxValue}}</h3>
 </div>
     
 </template>
