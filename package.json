@@ -7,10 +7,10 @@
     "serve": "vue-cli-service serve --port 80",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "gh-pages -d build"  
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
-    "@domak/vue-rangeslider": "^0.3.15",
+    "@domak/vue-rangeslider": "^0.4.1",
     "core-js": "^3.6.5",
     "cypress": "^4.11.0",
     "vue": "^2.6.11",

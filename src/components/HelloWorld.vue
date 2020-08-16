@@ -4,12 +4,14 @@
     @domak/vue-rangeslider
   </h1>
   <h2>Default</h2>
-  <RangeSlider></RangeSlider>
+  <RangeSlider
+  ></RangeSlider>
 
   <br><br>
 
   <h2>Example</h2>
   <RangeSlider
+  :keyboardMove="true"
   @getMinValue="getMinValue"
   @getMaxValue="getMaxValue"
   :min="0"
