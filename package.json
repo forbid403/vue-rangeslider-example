@@ -10,7 +10,7 @@
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
-    "@domak/vue-rangeslider": "^0.4.1",
+    "@domak/vue-rangeslider": "^0.4.7",
     "core-js": "^3.6.5",
     "cypress": "^4.11.0",
     "vue": "^2.6.11",

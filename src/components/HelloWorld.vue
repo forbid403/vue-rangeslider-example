@@ -16,9 +16,10 @@
   @getMaxValue="getMaxValue"
   :min="0"
   :max="20"
+  :gap="1"
   :defaultMin="minValue"
   :defaultMax="maxValue"
-  :sliceNum="2"
+  :sliceNum="1"
   :bar="{
     color: '#593B02',
     sliceColor: '#F2B705',
